@@ -59,5 +59,3 @@ Make sure you have the following dependencies installed to run the Django applic
 ## License
 
 This repository is licensed under the MIT License. Please see the [LICENSE](LICENSE) file for more details.
-
-Feel free to explore the tutorial and enhance your understanding of Django! If you have any questions or encounter any issues, please let us know.
