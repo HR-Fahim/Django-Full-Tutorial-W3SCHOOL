@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    {% extends "master.html" %}
+
+    {% block title %}
+    My Tennis Club - List of all members
+    {% endblock %}
+
+    {% block content %}
+
+    <!--<p>
+    <a href="/">HOME</a>
+    </p>-->
+    <div class="mycard">
+
+        <h1>Members</h1>
+
+        <ul>
+            {% for x in mymembers %}
+            <!--<li>{{ x.firstname }} {{ x.lastname }}</li>-->
+            <!--<li>
+       <a href="details/{{ x.id }}">
+            {{ x.firstname }} {{ x.lastname }}
+        </a>
+    </li>-->
+            <li onclick="window.location = 'details/{{ x.id }}'">
+            {{ x.firstname }} {{ x.lastname }}
+            </li>
+            {% endfor %}
+        </ul>
+
+    </div>
+        {% endblock %}
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{% static 'myglobal.css' %}">
+    <title></title>
+</head>
+<body>
+    <h1>For Testing Purpose</h1>
+    {% for x in fruits %}
+    <h2>{{ x }}</h2>
+    {% endfor %}
+
+    <p>In views.py you can see what the fruits variable looks like.</p>
+</body>
+</html>
