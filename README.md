@@ -55,3 +55,4 @@ Make sure you have the following dependencies installed to run the Django applic
 - Python (version 3.x)
 - Django 
 
+Feel free to explore the tutorial and if you have any questions or encounter any issues, please let us know.
